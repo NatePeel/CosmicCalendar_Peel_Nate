@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>NASA Astronomy Picture of the Day</title> 
+    <link href="https://cdn.fonts.net/kit/7b6b1e00-8b68-11ec-9ce3-0220834439f4/7b6b1e00-8b68-11ec-9ce3-0220834439f4.css"
+    rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css"> 
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+        <h1>NASA APOD</h1>
+        <h3>Astronomy Picture of the Day</h3>
+        <p> Use the date picker to view a specific date's photo. Alternatively, you can utilize chance variables by clicking the Random Date button to view a random picture.</p>
+    </header>
+    <main id="app">
+        <form>
+            <label for="datePicker">Pick a Date</label>
+            <input type="date" id="datePicker">
+            <button type="button" id="randomButton">Random Date</button>
+        </form>
+        <section id="apod"> 
+            <!-- JavaScript will put APOD images here. -->
+        </section>
+    </main>
+    <footer>
+      <i>Created by Nate Peel for his ISTA301 Final Project. Images via <a href="https://api.nasa.gov/">NASA APOD API</a></i>
+    </footer>
+  </body>
+</html>

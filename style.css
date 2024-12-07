@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  text-align: center; 
+  font-family: 'TwentiethCenturyMedium', sans-serif;
+  background-color: #333;
+  color: #fff;
+}
+
+#apod{
+  margin: 0 auto;
+  padding:2rem;
+  max-width: 900px;  
+}
+
+img{
+  width: 100%;
+  border-radius: 2rem;
+}
+
+footer{
+  padding: 2rem;
+
+
+  font-family: 'TwentiethCenturyLightItalic'
+}
+
+iframe{
+  width: 560px;
+  height: 315px;
+}
+
+nav{
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+}
